@@ -96,3 +96,5 @@ Each resource below comes with a **thumbnail, short description, and quick acces
 ---
 
 💡 **Pro Tip:** Bookmark this README and use it as your **digital resource hub** whenever you need AI & Tech insights.  
+
+[Website](https://debeatzgh.wordpress.com/)
