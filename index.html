@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech & AI Hub - Modern Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2 class="sidebar-logo">
+                <i class="fas fa-rocket"></i>
+                <span>Tech & AI Hub</span>
+            </h2>
+            <button class="sidebar-toggle" id="sidebarToggle">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <nav class="sidebar-nav">
+            <!-- Project Overview -->
+            <div class="nav-section">
+                <h3 class="nav-section-title">Portal</h3>
+                
+                <button class="nav-item" data-menu="overview">
+                    <div class="nav-item-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="nav-item-content">
+                        <h4 class="nav-item-title">Project Overview</h4>
+                        <p class="nav-item-desc">View the main hub and features</p>
+                    </div>
+                    <i class="fas fa-chevron-right nav-item-arrow"></i>
+                </button>
+            </div>
+
+            <!-- Forms Section -->
+            <div class="nav-section">
+                <h3 class="nav-section-title">Forms & Inquiries</h3>
+                
+                <button class="nav-item" data-menu="jotform">
+                    <div class="nav-item-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <div class="nav-item-content">
+                        <h4 class="nav-item-title">Feedback Form</h4>
+                        <p class="nav-item-desc">Share your feedback and suggestions</p>
+                    </div>
+                    <i class="fas fa-chevron-right nav-item-arrow"></i>
+                </button>
+
+                <button class="nav-item" data-menu="contact-suggest">
+                    <div class="nav-item-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="nav-item-content">
+                        <h4 class="nav-item-title">Contact & Suggest</h4>
+                        <p class="nav-item-desc">Customer suggestions and contact</p>
+                    </div>
+                    <i class="fas fa-chevron-right nav-item-arrow"></i>
+                </button>
+
+                <button class="nav-item" data-menu="contact">
+                    <div class="nav-item-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="nav-item-content">
+                        <h4 class="nav-item-title">Contact Form</h4>
+                        <p class="nav-item-desc">Get in touch with our team</p>
+                    </div>
+                    <i class="fas fa-chevron-right nav-item-arrow"></i>
+                </button>
+
+                <button class="nav-item" data-menu="project-enquiry">
+                    <div class="nav-item-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="nav-item-content">
+                        <h4 class="nav-item-title">Project Enquiry</h4>
+                        <p class="nav-item-desc">Inquire about our projects</p>
+                    </div>
+                    <i class="fas fa-chevron-right nav-item-arrow"></i>
+                </button>
+            </div>
+
+            <!-- Authentication Section -->
+            <div class="nav-section">
+                <h3 class="nav-section-title">Account</h3>
+                
+                <button class="nav-item" data-menu="signin">
+                    <div class="nav-item-icon">
+                        <i class="fas fa-sign-in-alt"></i>
+                    </div>
+                    <div class="nav-item-content">
+                        <h4 class="nav-item-title">Sign In</h4>
+                        <p class="nav-item-desc">Access your account</p>
+                    </div>
+                    <i class="fas fa-chevron-right nav-item-arrow"></i>
+                </button>
+            </div>
+
+            <!-- Premium Section -->
+            <div class="nav-section">
+                <h3 class="nav-section-title">Premium</h3>
+                
+                <button class="nav-item premium-badge" data-menu="premium">
+                    <div class="nav-item-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <div class="nav-item-content">
+                        <h4 class="nav-item-title">Premium Access</h4>
+                        <p class="nav-item-desc">Templates, blog admin & more</p>
+                    </div>
+                    <span class="badge-premium">PRO</span>
+                    <i class="fas fa-chevron-right nav-item-arrow"></i>
+                </button>
+            </div>
+        </nav>
+
+        <div class="sidebar-footer">
+            <p class="sidebar-footer-text">Need help? Check our docs or contact support</p>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- Header -->
+        <header class="header">
+            <button class="header-menu-btn" id="headerMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="header-title">
+                <h1>Welcome to Tech & AI Hub</h1>
+            </div>
+        </header>
+
+        <!-- Content Container -->
+        <div class="content-wrapper">
+            <section class="content-section active" id="overview-content">
+                <div class="welcome-section">
+                    <div class="welcome-header">
+                        <h2>🚀 Tech & AI Hub Portal</h2>
+                        <p class="welcome-subtitle">Your gateway to innovation and collaboration</p>
+                    </div>
+                    
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h3>Innovative Solutions</h3>
+                            <p>Explore cutting-edge technology and AI-powered tools</p>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3>Community Driven</h3>
+                            <p>Connect with creators and developers worldwide</p>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>Premium Features</h3>
+                            <p>Access exclusive templates and advanced tools</p>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-support"></i>
+                            </div>
+                            <h3>24/7 Support</h3>
+                            <p>Get help whenever you need it</p>
+                        </div>
+                    </div>
+
+                    <div class="quick-start">
+                        <h3>Quick Start</h3>
+                        <p>Use the sidebar menu to explore different sections and features. Click on any item to open forms, access external resources, or manage your account.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Social Creator Floating Button -->
+    <button class="floating-btn" id="socialCreatorBtn" title="Open Social Creator">
+        <i class="fas fa-share-alt"></i>
+    </button>
+
+    <!-- Form Overlay Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Form Title</h3>
+                <button class="modal-close" id="modalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <iframe id="formIframe" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="modalCloseBtn">Close</button>
+                <a href="#" id="modalExternalBtn" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-external-link-alt"></i> Open in New Tab
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Social Creator Modal -->
+    <div class="modal-overlay" id="socialCreatorModal">
+        <div class="modal-content modal-social">
+            <div class="modal-header">
+                <h3>Social Creator Shop</h3>
+                <button class="modal-close" id="socialCreatorClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body social-body">
+                <div class="social-content">
+                    <div class="social-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <h4>Discover Premium Products</h4>
+                    <p>Explore the Social Creator shop for exclusive tools and resources</p>
+                    <a href="https://www.socialcreator.com/techshop/?s=322742" target="_blank" class="btn btn-primary btn-large">
+                        <i class="fas fa-external-link-alt"></i> Visit Social Creator
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
